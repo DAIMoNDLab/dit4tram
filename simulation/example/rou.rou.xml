@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-07-18 17:19:18 by Eclipse SUMO netedit Version v1_15_0+3072-a493b9138de
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="bikes" minGap="0.50" vClass="bicycle" color="yellow"/>
+    <vType id="car" color="green"/>
+    <vType id="cbikes" minGap="0.50" vClass="bicycle" color="blue"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <flow id="bikesEW" type="bikes" begin="0.00" from="-E1" to="E3" end="7200.00" number="50"/>
+    <flow id="bikesNE" type="bikes" begin="0.00" from="-E2" to="E1" end="7200.00" number="50"/>
+    <flow id="bikesNS" type="bikes" begin="0.00" from="-E2" to="-E0" end="7200.00" number="50"/>
+    <flow id="bikesSE" type="bikes" begin="0.00" from="E0" to="E1" end="7200.00" number="50"/>
+    <flow id="bikesSN" type="bikes" begin="0.00" from="E0" to="E2" end="7200.00" number="50"/>
+    <flow id="bikesSW" type="bikes" begin="0.00" from="E0" to="E3" end="7200.00" number="50"/>
+    <flow id="carsEW" type="car" begin="0.00" from="-E1" to="E3" end="7200.00" number="200"/>
+    <flow id="carsNE" type="car" begin="0.00" from="-E2" to="E1" end="7200.00" number="200"/>
+    <flow id="carsNS" type="car" begin="0.00" from="-E2" to="-E0" end="7200.00" number="200"/>
+    <flow id="carsSE" type="car" begin="0.00" from="E0" to="E1" end="7200.00" number="200"/>
+    <flow id="carsSN" type="car" begin="0.00" from="E0" to="E2" end="7200.00" number="200"/>
+    <flow id="carsSW" type="car" begin="0.00" from="E0" to="E3" end="7200.00" number="200"/>
+    <flow id="cbikesEW" type="cbikes" begin="0.00" from="-E1" to="E3" end="7200.00" number="25"/>
+    <flow id="cbikesNE" type="cbikes" begin="0.00" from="-E2" to="E1" end="7200.00" number="25"/>
+    <flow id="cbikesNS" type="cbikes" begin="0.00" from="-E2" to="-E0" end="7200.00" number="25"/>
+    <flow id="cbikesSE" type="cbikes" begin="0.00" from="E0" to="E1" end="7200.00" number="25"/>
+    <flow id="cbikesSN" type="cbikes" begin="0.00" from="E0" to="E2" end="7200.00" number="25"/>
+    <flow id="cbikesSW" type="cbikes" begin="0.00" from="E0" to="E3" end="7200.00" number="25"/>
+    <flow id="cbikesEWtest" type="cbikes" begin="150.00" from="-E1" to="E3" end="250.00" number="10"/>
+    <flow id="cbikesNEtest" type="cbikes" begin="150.00" from="-E2" to="E1" end="250.00" number="10"/>
+    <flow id="cbikesNStest" type="cbikes" begin="150.00" from="-E2" to="-E0" end="250.00" number="10"/>
+    <flow id="cbikesSEtest" type="cbikes" begin="150.00" from="E0" to="E1" end="250.00" number="10"/>
+    <flow id="cbikesSNtest" type="cbikes" begin="150.00" from="E0" to="E2" end="250.00" number="10"/>
+    <flow id="cbikesSWtest" type="cbikes" begin="150.00" from="E0" to="E3" end="250.00" number="10"/>
+</routes>

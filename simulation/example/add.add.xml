@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-07-18 17:19:20 by Eclipse SUMO netedit Version v1_15_0+3072-a493b9138de
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- Detectors -->
+    <entryExitDetector id="bikes_e" pos="367.71,-23.63" period="300.00" file="e3_0.xml">
+        <detEntry lane="-E1_0" pos="182.95"/>
+        <detExit lane="-E1_0" pos="188.91"/>
+    </entryExitDetector>
+    <entryExitDetector id="bikes_n" pos="335.77,-17.78" period="300.00" file="bikes_n.xml">
+        <detExit lane="-E2_0" pos="172.71"/>
+        <detEntry lane="-E2_0" pos="167.37"/>
+    </entryExitDetector>
+    <entryExitDetector id="bikes_s" pos="378.04,-53.24" period="300.00" file="bikes_s.xml">
+        <detExit lane="E0_0" pos="174.93"/>
+        <detEntry lane="E0_0" pos="169.90"/>
+    </entryExitDetector>
+    <entryExitDetector id="bikes_w" pos="336.64,-43.98" period="300.00" file="bikes_w.xml">
+        <detExit lane="-E3_0" pos="189.89"/>
+        <detEntry lane="-E3_0" pos="181.93"/>
+    </entryExitDetector>
+    <entryExitDetector id="cbikes_e" pos="470.89,-23.15" period="300.00" file="cbikes_e.xml">
+        <detExit lane="-E1_0" pos="89.20"/>
+        <detEntry lane="-E1_0" pos="83.70"/>
+    </entryExitDetector>
+    <entryExitDetector id="cbikes_ex_e" pos="472.06,-49.55" period="300.00" file="cbikes_ex_e.xml">
+        <detEntry lane="E1_0" pos="102.07"/>
+        <detExit lane="E1_0" pos="107.29"/>
+    </entryExitDetector>
+    <entryExitDetector id="cbikes_ex_n" pos="370.53,82.08" period="300.00" file="cbikes_ex_n.xml">
+        <detEntry lane="E2_0" pos="106.74"/>
+        <detExit lane="E2_0" pos="111.36"/>
+    </entryExitDetector>
+    <entryExitDetector id="cbikes_ex_s" pos="338.04,-151.90" period="300.00" file="cbikes_ex_s.xml">
+        <detEntry lane="-E0_0" pos="104.06"/>
+        <detExit lane="-E0_0" pos="109.23"/>
+    </entryExitDetector>
+    <entryExitDetector id="cbikes_ex_w" pos="240.25,-22.32" period="300.00" file="cbikes_ex_w.xml">
+        <detEntry lane="E3_0" pos="99.06"/>
+        <detExit lane="E3_0" pos="104.02"/>
+    </entryExitDetector>
+    <entryExitDetector id="cbikes_n" pos="337.61,82.50" period="300.00" file="cbikes_n.xml">
+        <detExit lane="-E2_0" pos="66.94"/>
+        <detEntry lane="-E2_0" pos="62.46"/>
+    </entryExitDetector>
+    <entryExitDetector id="cbikes_s" pos="371.57,-152.32" period="300.00" file="cbikes_s.xml">
+        <detExit lane="E0_0" pos="72.01"/>
+        <detEntry lane="E0_0" pos="66.33"/>
+    </entryExitDetector>
+    <entryExitDetector id="cbikes_w" pos="240.70,-44.58" period="300.00" file="e3_0.xml">
+        <detEntry lane="-E3_0" pos="87.08"/>
+        <detExit lane="-E3_0" pos="91.56"/>
+    </entryExitDetector>
+    <entryExitDetector id="m01" pos="372.09,-49.07" period="300.00" file="cars_s.xml">
+        <detExit lane="E0_3" pos="174.85"/>
+        <detEntry lane="E0_3" pos="169.93"/>
+    </entryExitDetector>
+    <entryExitDetector id="m02" pos="378.04,-49.08" period="300.00" file="m02.xml">
+        <detEntry lane="E0_2" pos="169.92"/>
+        <detExit lane="E0_2" pos="174.69"/>
+    </entryExitDetector>
+    <entryExitDetector id="m03" pos="371.81,-53.35" period="300.00" file="e3_0.xml">
+        <detEntry lane="E0_1" pos="169.93"/>
+        <detExit lane="E0_1" pos="174.80"/>
+    </entryExitDetector>
+    <entryExitDetector id="m04" pos="338.97,-22.15" period="300.00" file="m04.xml">
+        <detExit lane="-E2_2" pos="172.69"/>
+        <detEntry lane="-E2_2" pos="167.40"/>
+    </entryExitDetector>
+    <entryExitDetector id="m05" pos="332.52,-21.72" period="300.00" file="cars_n.xml">
+        <detExit lane="-E2_1" pos="172.72"/>
+        <detEntry lane="-E2_1" pos="167.34"/>
+    </entryExitDetector>
+    <entryExitDetector id="m06" pos="373.28,-23.63" period="300.00" file="e3_1.xml">
+        <detExit lane="-E1_1" pos="188.87"/>
+        <detEntry lane="-E1_1" pos="182.88"/>
+    </entryExitDetector>
+</additional>

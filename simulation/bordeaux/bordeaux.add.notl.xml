@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-10-08 14:35:14 by Eclipse SUMO netedit Version 1.18.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- StoppingPlaces -->
+    <busStop id="AUG80A" lane="-E11_2" startPos="30.77" endPos="40.77" lines="80"/>
+    <busStop id="AUG80R" lane="E11_2" startPos="57.24" endPos="67.24" lines="80"/>
+    <busStop id="BAOR9A" lane="Sin_2" startPos="104.80" endPos="114.80" lines="9"/>
+    <busStop id="BAOR9R" lane="Sout_2" startPos="173.27" endPos="183.27" lines="9"/>
+    <busStop id="PECH9A" lane="Nout_2" startPos="49.18" endPos="59.18" lines="9"/>
+    <busStop id="PECH9R" lane="Nin_2" startPos="190.37" endPos="200.37" lines="9"/>
+    <!-- Detectors -->
+    <inductionLoop id="BUSEW" lane="Win_2" pos="117.35" period="300.00" file="None" vTypes="bus"/>
+    <inductionLoop id="BUSNS" lane="Nin_2" pos="97.25" period="300.00" file="None" vTypes="bus"/>
+    <inductionLoop id="BUSSN" lane="Sin_2" pos="51.18" period="300.00" file="None" vTypes="bus"/>
+    <inductionLoop id="BUSWE" lane="-E6_3" pos="51.58" period="300.00" file="None" vTypes="bus"/>
+    <entryExitDetector id="cars_e_in" pos="292.78,67.37" period="300.00" file="None">
+        <detEntry lane="Ein_2" pos="108.37"/>
+        <detEntry lane="Ein_3" pos="108.29"/>
+        <detExit lane="Ein_2" pos="118.24"/>
+        <detExit lane="Ein_3" pos="118.13"/>
+    </entryExitDetector>
+    <entryExitDetector id="cars_e_out" pos="291.45,57.14" period="300.00" file="None">
+        <detEntry lane="Eout_3" pos="69.40"/>
+        <detEntry lane="Eout_2" pos="69.67"/>
+        <detExit lane="Eout_3" pos="79.12"/>
+        <detExit lane="Eout_2" pos="79.14"/>
+    </entryExitDetector>
+    <entryExitDetector id="cars_n_in" pos="56.94,277.34" period="300.00" file="None">
+        <detEntry lane="Nin_2" pos="83.83"/>
+        <detEntry lane="Nin_3" pos="83.72"/>
+        <detExit lane="Nin_2" pos="92.06"/>
+        <detExit lane="Nin_3" pos="92.08"/>
+    </entryExitDetector>
+    <entryExitDetector id="cars_n_out" pos="66.69,275.21" period="300.00" file="None">
+        <detEntry lane="Nout_3" pos="132.70"/>
+        <detEntry lane="Nout_2" pos="132.79"/>
+        <detExit lane="Nout_3" pos="141.18"/>
+        <detExit lane="Nout_2" pos="141.22"/>
+    </entryExitDetector>
+    <entryExitDetector id="cars_s_in" pos="78.81,-161.94" period="300.00" file="None">
+        <detEntry lane="Sin_2" pos="79.40"/>
+        <detEntry lane="Sin_3" pos="79.43"/>
+        <detExit lane="Sin_3" pos="88.07"/>
+        <detExit lane="Sin_2" pos="88.12"/>
+    </entryExitDetector>
+    <entryExitDetector id="cars_s_out" pos="68.88,-159.62" period="300.00" file="None">
+        <detEntry lane="Sout_2" pos="95.40"/>
+        <detEntry lane="Sout_3" pos="95.47"/>
+        <detExit lane="Sout_2" pos="103.86"/>
+        <detExit lane="Sout_3" pos="103.81"/>
+    </entryExitDetector>
+    <entryExitDetector id="cars_w_in" pos="-151.26,52.84" period="300.00" file="None">
+        <detEntry lane="Win_2" pos="101.80"/>
+        <detEntry lane="Win_3" pos="101.79"/>
+        <detExit lane="Win_2" pos="111.52"/>
+        <detExit lane="Win_3" pos="111.24"/>
+    </entryExitDetector>
+    <entryExitDetector id="cars_w_out" pos="-149.85,62.67" period="300.00" file="None">
+        <detEntry lane="Wout_2" pos="71.39"/>
+        <detEntry lane="Wout_3" pos="71.31"/>
+        <detExit lane="Wout_2" pos="80.45"/>
+        <detExit lane="Wout_3" pos="80.50"/>
+    </entryExitDetector>
+    <entryExitDetector id="cbikes_e_in" pos="291.67,77.56" period="300.00" file="None">
+        <detEntry lane="Ein_1" pos="8.52"/>
+        <detExit lane="Ein_1" pos="187.22"/>
+    </entryExitDetector>
+    <entryExitDetector id="cbikes_e_out" pos="292.73,45.36" period="300.00" file="None">
+        <detEntry lane="Eout_1" pos="9.65"/>
+        <detExit lane="Eout_1" pos="179.15"/>
+    </entryExitDetector>
+    <entryExitDetector id="cbikes_n_in" pos="43.46,276.27" period="300.00" file="None">
+        <detEntry lane="Nin_1" pos="3.97"/>
+        <detExit lane="Nin_1" pos="152.13"/>
+    </entryExitDetector>
+    <entryExitDetector id="cbikes_n_out" pos="79.28,277.38" period="300.00" file="None">
+        <detEntry lane="Nout_1" pos="2.78"/>
+        <detExit lane="Nout_1" pos="181.30"/>
+    </entryExitDetector>
+    <entryExitDetector id="cbikes_s_in" pos="88.88,-159.89" period="300.00" file="None">
+        <detEntry lane="Sin_1" pos="9.40"/>
+        <detExit lane="Sin_1" pos="158.07"/>
+    </entryExitDetector>
+    <entryExitDetector id="cbikes_s_out" pos="57.22,-159.92" period="300.00" file="None">
+        <detEntry lane="Sout_1" pos="5.31"/>
+        <detExit lane="Sout_1" pos="153.95"/>
+    </entryExitDetector>
+    <entryExitDetector id="cbikes_w_in" pos="-149.59,38.93" period="300.00" file="None">
+        <detEntry lane="Win_1" pos="1.87"/>
+        <detExit lane="Win_1" pos="151.45"/>
+    </entryExitDetector>
+    <entryExitDetector id="cbikes_w_out" pos="-149.82,75.39" period="300.00" file="None">
+        <detEntry lane="Wout_1" pos="71.41"/>
+        <detExit lane="Wout_1" pos="80.56"/>
+    </entryExitDetector>
+    <entryExitDetector id="e0_10" pos="58.99,95.69" period="300.00" file="None">
+        <detExit lane="-E8_3" pos="7.55"/>
+        <detEntry lane="-E8_3" pos="1.13"/>
+    </entryExitDetector>
+    <entryExitDetector id="e0_11" pos="62.06,95.72" period="300.00" file="None">
+        <detEntry lane="-E8_4" pos="1.08"/>
+        <detExit lane="-E8_4" pos="7.68"/>
+    </entryExitDetector>
+    <entryExitDetector id="e10_06" pos="70.97,32.54" period="300.00" file="None">
+        <detExit lane="-E2_6" pos="4.15"/>
+        <detEntry lane="-E2_6" pos="0.00"/>
+    </entryExitDetector>
+    <entryExitDetector id="e12" pos="71.68,-21.30" period="300.00" file="None">
+        <detEntry lane="-E4.52_4" pos="6.07"/>
+        <detExit lane="-E4.52_4" pos="22.47"/>
+    </entryExitDetector>
+    <entryExitDetector id="e14" pos="-83.43,50.78" period="300.00" file="None">
+        <detEntry lane="Win_2" pos="170.71"/>
+        <detExit lane="Win_2" pos="180.26"/>
+    </entryExitDetector>
+    <entryExitDetector id="e15" pos="-83.39,54.04" period="300.00" file="None">
+        <detEntry lane="Win_3" pos="170.86"/>
+        <detExit lane="Win_3" pos="179.90"/>
+    </entryExitDetector>
+    <entryExitDetector id="e16" pos="99.85,68.00" period="300.00" file="None">
+        <detExit lane="-E5_1" pos="8.73"/>
+        <detExit lane="-E5_2" pos="8.73"/>
+        <detEntry lane="-E6_1" pos="61.39"/>
+    </entryExitDetector>
+    <entryExitDetector id="e17" pos="223.98,63.96" period="300.00" file="None">
+        <detEntry lane="Ein_3" pos="178.01"/>
+        <detExit lane="Ein_3" pos="184.04"/>
+    </entryExitDetector>
+    <entryExitDetector id="e18" pos="36.38,45.68" period="300.00" file="None">
+        <detExit lane="E10_1" pos="6.00"/>
+        <detEntry lane="E10_1" pos="0.00"/>
+        <detExit lane="E10_2" pos="6.00"/>
+        <detEntry lane="E10_2" pos="0.00"/>
+    </entryExitDetector>
+    <entryExitDetector id="e20" pos="48.26,75.85" period="300.00" file="None">
+        <detEntry lane="-E8_1" pos="7.48"/>
+        <detEntry lane="-E8_2" pos="7.48"/>
+        <detExit lane="-E8_1" pos="11.04"/>
+        <detExit lane="-E8_2" pos="11.04"/>
+    </entryExitDetector>
+    <entryExitDetector id="e22" pos="80.73,31.55" period="300.00" file="None">
+        <detEntry lane="-E2_1" pos="0.00"/>
+        <detExit lane="-E2_1" pos="3.95"/>
+        <detEntry lane="-E2_2" pos="0.00"/>
+        <detExit lane="-E2_2" pos="3.95"/>
+    </entryExitDetector>
+    <entryExitDetector id="e24" pos="193.47,63.22" period="300.00" file="None">
+        <detExit lane="-E6_3" pos="15.62"/>
+        <detEntry lane="-E6_3" pos="0.00"/>
+    </entryExitDetector>
+    <entryExitDetector id="e2_04" pos="78.06,32.36" period="300.00" file="None">
+        <detExit lane="-E2_3" pos="3.98"/>
+        <detEntry lane="-E2_3" pos="0.00"/>
+    </entryExitDetector>
+    <entryExitDetector id="e2_05" pos="74.95,32.06" period="300.00" file="None">
+        <detExit lane="-E2_4" pos="4.10"/>
+        <detEntry lane="-E2_4" pos="0.00"/>
+    </entryExitDetector>
+    <entryExitDetector id="e4_07" pos="23.05,49.94" period="300.00" file="None">
+        <detEntry lane="E11_2" pos="70.67"/>
+        <detExit lane="E10_3" pos="0.00"/>
+    </entryExitDetector>
+    <entryExitDetector id="e4_08" pos="21.22,53.09" period="300.00" file="None">
+        <detExit lane="E10_4" pos="0.00"/>
+        <detEntry lane="E11_3" pos="68.77"/>
+    </entryExitDetector>
+    <entryExitDetector id="e4_09" pos="19.50,56.44" period="300.00" file="None">
+        <detEntry lane="E11_4" pos="66.09"/>
+        <detExit lane="E10_5" pos="0.00"/>
+    </entryExitDetector>
+    <entryExitDetector id="e5" pos="76.18,-21.18" period="300.00" file="None">
+        <detEntry lane="-E4.52_2" pos="6.05"/>
+        <detEntry lane="-E4.52_3" pos="6.03"/>
+        <detExit lane="-E4.52_3" pos="22.47"/>
+        <detExit lane="-E4.52_2" pos="22.32"/>
+    </entryExitDetector>
+    <entryExitDetector id="e6_01" pos="116.83,65.10" period="300.00" file="None">
+        <detEntry lane="-E6_2" pos="84.81"/>
+        <detExit lane="-E5_4" pos="0.00"/>
+    </entryExitDetector>
+    <entryExitDetector id="e6_02" pos="117.08,61.81" period="300.00" file="None">
+        <detExit lane="-E5_5" pos="0.00"/>
+        <detEntry lane="-E6_3" pos="83.73"/>
+    </entryExitDetector>
+    <entryExitDetector id="e6_03" pos="110.77,58.52" period="300.00" file="None">
+        <detExit lane="-E5_6" pos="0.00"/>
+        <detEntry lane="-E6_4" pos="82.74"/>
+    </entryExitDetector>
+    <entryExitDetector id="e7" pos="193.46,60.11" period="300.00" file="None">
+        <detExit lane="-E6_4" pos="15.62"/>
+        <detEntry lane="-E6_4" pos="0.00"/>
+    </entryExitDetector>
+    <entryExitDetector id="e8_12" pos="67.90,89.33" period="300.00" file="None">
+        <detEntry lane="-E8_6" pos="4.81"/>
+        <detEntry lane="-E8_7" pos="5.35"/>
+        <detExit lane="-E8_6" pos="10.00"/>
+        <detExit lane="-E8_7" pos="10.09"/>
+    </entryExitDetector>
+    <entryExitDetector id="mac0" pos="223.89,67.14" period="300.00" file="None">
+        <detEntry lane="Ein_2" pos="178.07"/>
+        <detExit lane="Ein_2" pos="184.04"/>
+    </entryExitDetector>
+</additional>

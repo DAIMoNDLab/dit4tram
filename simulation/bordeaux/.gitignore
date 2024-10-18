@@ -1,0 +1,5 @@
+*.pyc
+*_in.xml
+*_out.xml
+e*.xml
+mac*.xml

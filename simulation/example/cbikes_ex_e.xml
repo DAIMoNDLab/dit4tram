@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-07-21 15:40:50 by Eclipse SUMO GUI Version v1_15_0+3072-a493b9138de
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="simulation/files/bordeaux/bordeaux.net.xml"/>
+        <route-files value="simulation/files/bordeaux/rou.rou.xml"/>
+        <additional-files value="simulation/files/bordeaux/add.add.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="7200"/>
+        <step-length value="0.5"/>
+    </time>
+
+    <processing>
+        <lateral-resolution value="1.6"/>
+    </processing>
+
+    <report>
+        <no-warnings value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="57117"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<e3Detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e3_file.xsd">
+   <interval begin="0.00" end="300.00" id="cbikes_ex_e" meanTravelTime="0.94" meanOverlapTravelTime="1.23" meanSpeed="5.62" meanHaltsPerVehicle="0.00" meanTimeLoss="0.03" vehicleSum="12" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="300.00" end="600.00" id="cbikes_ex_e" meanTravelTime="0.99" meanOverlapTravelTime="1.30" meanSpeed="5.29" meanHaltsPerVehicle="0.00" meanTimeLoss="0.04" vehicleSum="18" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="600.00" end="900.00" id="cbikes_ex_e" meanTravelTime="0.97" meanOverlapTravelTime="1.26" meanSpeed="5.46" meanHaltsPerVehicle="0.00" meanTimeLoss="0.04" vehicleSum="8" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="900.00" end="1200.00" id="cbikes_ex_e" meanTravelTime="1.02" meanOverlapTravelTime="1.33" meanSpeed="5.17" meanHaltsPerVehicle="0.00" meanTimeLoss="0.04" vehicleSum="6" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="1200.00" end="1500.00" id="cbikes_ex_e" meanTravelTime="0.96" meanOverlapTravelTime="1.25" meanSpeed="5.49" meanHaltsPerVehicle="0.00" meanTimeLoss="0.04" vehicleSum="7" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="1500.00" end="1800.00" id="cbikes_ex_e" meanTravelTime="0.90" meanOverlapTravelTime="1.17" meanSpeed="5.85" meanHaltsPerVehicle="0.00" meanTimeLoss="0.03" vehicleSum="6" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="1800.00" end="2100.00" id="cbikes_ex_e" meanTravelTime="1.08" meanOverlapTravelTime="1.41" meanSpeed="4.89" meanHaltsPerVehicle="0.00" meanTimeLoss="0.04" vehicleSum="7" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="2100.00" end="2400.00" id="cbikes_ex_e" meanTravelTime="1.04" meanOverlapTravelTime="1.36" meanSpeed="5.05" meanHaltsPerVehicle="0.00" meanTimeLoss="0.04" vehicleSum="4" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="2400.00" end="2700.00" id="cbikes_ex_e" meanTravelTime="0.98" meanOverlapTravelTime="1.27" meanSpeed="5.36" meanHaltsPerVehicle="0.00" meanTimeLoss="0.04" vehicleSum="8" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="2700.00" end="3000.00" id="cbikes_ex_e" meanTravelTime="0.97" meanOverlapTravelTime="1.26" meanSpeed="5.41" meanHaltsPerVehicle="0.00" meanTimeLoss="0.04" vehicleSum="8" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="3000.00" end="3300.00" id="cbikes_ex_e" meanTravelTime="1.01" meanOverlapTravelTime="1.32" meanSpeed="5.17" meanHaltsPerVehicle="0.00" meanTimeLoss="0.05" vehicleSum="4" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="3300.00" end="3600.00" id="cbikes_ex_e" meanTravelTime="0.94" meanOverlapTravelTime="1.22" meanSpeed="5.61" meanHaltsPerVehicle="0.00" meanTimeLoss="0.02" vehicleSum="7" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="3600.00" end="3900.00" id="cbikes_ex_e" meanTravelTime="1.03" meanOverlapTravelTime="1.35" meanSpeed="5.12" meanHaltsPerVehicle="0.00" meanTimeLoss="0.03" vehicleSum="7" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="3900.00" end="4200.00" id="cbikes_ex_e" meanTravelTime="0.94" meanOverlapTravelTime="1.23" meanSpeed="5.61" meanHaltsPerVehicle="0.00" meanTimeLoss="0.02" vehicleSum="6" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="4200.00" end="4500.00" id="cbikes_ex_e" meanTravelTime="0.94" meanOverlapTravelTime="1.23" meanSpeed="5.64" meanHaltsPerVehicle="0.00" meanTimeLoss="0.04" vehicleSum="6" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="4500.00" end="4800.00" id="cbikes_ex_e" meanTravelTime="1.04" meanOverlapTravelTime="1.36" meanSpeed="5.04" meanHaltsPerVehicle="0.00" meanTimeLoss="0.04" vehicleSum="6" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="4800.00" end="5100.00" id="cbikes_ex_e" meanTravelTime="0.95" meanOverlapTravelTime="1.25" meanSpeed="5.55" meanHaltsPerVehicle="0.00" meanTimeLoss="0.04" vehicleSum="6" meanSpeedWithin="5.37" meanHaltsPerVehicleWithin="0.00" meanDurationWithin="1.45" vehicleSumWithin="1" meanIntervalSpeedWithin="5.37" meanIntervalHaltsPerVehicleWithin="0.00" meanIntervalDurationWithin="1.45" meanTimeLossWithin="0.02"/>
+   <interval begin="5100.00" end="5400.00" id="cbikes_ex_e" meanTravelTime="1.03" meanOverlapTravelTime="1.35" meanSpeed="5.06" meanHaltsPerVehicle="0.00" meanTimeLoss="0.03" vehicleSum="7" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="5400.00" end="5700.00" id="cbikes_ex_e" meanTravelTime="0.97" meanOverlapTravelTime="1.26" meanSpeed="5.45" meanHaltsPerVehicle="0.00" meanTimeLoss="0.03" vehicleSum="5" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="5700.00" end="6000.00" id="cbikes_ex_e" meanTravelTime="0.99" meanOverlapTravelTime="1.29" meanSpeed="5.34" meanHaltsPerVehicle="0.00" meanTimeLoss="0.05" vehicleSum="7" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="6000.00" end="6300.00" id="cbikes_ex_e" meanTravelTime="0.93" meanOverlapTravelTime="1.22" meanSpeed="5.63" meanHaltsPerVehicle="0.00" meanTimeLoss="0.03" vehicleSum="7" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="6300.00" end="6600.00" id="cbikes_ex_e" meanTravelTime="0.92" meanOverlapTravelTime="1.21" meanSpeed="5.69" meanHaltsPerVehicle="0.00" meanTimeLoss="0.03" vehicleSum="5" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="6600.00" end="6900.00" id="cbikes_ex_e" meanTravelTime="0.95" meanOverlapTravelTime="1.24" meanSpeed="5.52" meanHaltsPerVehicle="0.00" meanTimeLoss="0.03" vehicleSum="7" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="6900.00" end="7200.00" id="cbikes_ex_e" meanTravelTime="0.99" meanOverlapTravelTime="1.29" meanSpeed="5.32" meanHaltsPerVehicle="0.00" meanTimeLoss="0.03" vehicleSum="6" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="7200.00" end="7280.50" id="cbikes_ex_e" meanTravelTime="-1.00" meanOverlapTravelTime="-1.00" meanSpeed="-1.00" meanHaltsPerVehicle="-1.00" meanTimeLoss="-1.00" vehicleSum="0" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+</e3Detector>
